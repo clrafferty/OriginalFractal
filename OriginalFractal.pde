@@ -1,3 +1,5 @@
+int y = height;
+int wid = 0;
 public void setup(){
 	rectMode(CENTER);
 	size(500,500);
@@ -10,6 +12,7 @@ myFractal(400,250,5);
 stem(100,120);
 stem(250,120);
 stem(400,120);
+
 for(int i=0;i<width;i+=5){
 	fill(28, 153, 51);
 	triangle(i,height,i+2.5,height-10,i+5,height);
